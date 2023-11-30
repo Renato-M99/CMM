@@ -1,0 +1,72 @@
+/* Resets gerais */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* formatações do top-menu */
+
+.top-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+   
+}
+
+.top-menu h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+/* search container */
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    padding: 8px 16px;
+    border-radius: 10px;
+    /* background-color: white; */
+    margin: 0 auto;
+    
+}
+
+
+.search-container input{
+    
+    font-size: 18px;
+    width: 256px;
+    height: 24px;
+    
+}
+/* search button */
+.fa-solid {
+    font-size: 18px;
+
+}
+
+.fa-magnifying-glass {
+    color: red;
+    margin-left: -30px;
+    /* end search button */
+}
+
+/* service container */
+.service{
+    display: flex;
+    color: #fff;
+}
+
+/* compre pelo wpp */
+/* wpp icone */
+.fa-bands{
+    font-size: 18px;
+}
+
+.fa-headset{
+    color: #fff;
+    margin-left: 30px;
+}
+
+
