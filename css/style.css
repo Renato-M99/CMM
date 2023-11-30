@@ -13,12 +13,16 @@
     justify-content: space-between;
     background-color: red;
     color: white;
+    height: 77px;
+    
    
 }
 
 .top-menu h1{
     font-size: 38px;
     font-weight: bold;
+    border: 1px solid white;
+    border-radius: 40px;
 }
 /* search container */
 .search-container{
@@ -26,15 +30,14 @@
     align-items: center;
     justify-content: space-between;    
     padding: 8px 16px;
-    border-radius: 10px;
-    /* background-color: white; */
+    background-color: #fff;
     margin: 0 auto;
     
 }
 
 
 .search-container input{
-    
+    border: none;
     font-size: 18px;
     width: 256px;
     height: 24px;
@@ -55,6 +58,7 @@
 /* service container */
 .service{
     display: flex;
+    margin: 0 auto;
     color: #fff;
 }
 
@@ -66,7 +70,24 @@
 
 .fa-headset{
     color: #fff;
-    margin-left: 30px;
+    
+}
+
+/* Welcome container */
+.welcome{
+    display:flex;
+    
+    align-items: center;
+    margin: 0 auto;
+}
+/* User icon SUPER class */
+.fa-regular {
+    font-size: 18px; 
+    
+}
+.right-btns i{
+    width: 30px;
+    height: 31px;
 }
 
 
