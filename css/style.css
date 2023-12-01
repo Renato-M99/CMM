@@ -1,93 +1,156 @@
 /* Resets gerais */
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 /* formatações do top-menu */
 
-.top-menu{
+.top-menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: red;
     color: white;
     height: 77px;
+    margin: 0 auto;
     
-   
+
 }
 
-.top-menu h1{
+.top-menu h1 {
     font-size: 38px;
     font-weight: bold;
     border: 1px solid white;
-    border-radius: 40px;
+    border-radius: 70%;
+    padding: 12px;
+
 }
+
 /* search container */
-.search-container{
+.search-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;
     padding: 8px 16px;
     background-color: #fff;
     margin: 0 auto;
-    
+    border-radius: 10px;
+
+
 }
 
 
-.search-container input{
+.search-container input {
     border: none;
     font-size: 18px;
-    width: 256px;
+    width: 290px;
     height: 24px;
-    
-}
-/* search button */
-.fa-solid {
-    font-size: 18px;
 
 }
+
+/* search button */
+
 
 .fa-magnifying-glass {
     color: red;
     margin-left: -30px;
+    font-size: 24px;
     /* end search button */
 }
 
 /* service container */
-.service{
+.service {
     display: flex;
     margin: 0 auto;
     color: #fff;
 }
 
+
 /* compre pelo wpp */
 /* wpp icone */
-.fa-bands{
-    font-size: 18px;
+
+.fa-bands {
+    font-size: 24px;
+    padding: 20px;
 }
 
-.fa-headset{
+.fa-headset {
     color: #fff;
-    
+
 }
 
 /* Welcome container */
-.welcome{
-    display:flex;
-    
+.welcome {
+    display: flex;
     align-items: center;
     margin: 0 auto;
-}
-/* User icon SUPER class */
-.fa-regular {
-    font-size: 18px; 
-    
-}
-.right-btns i{
-    width: 30px;
-    height: 31px;
+
 }
 
+/* User icon SUPER class */
+.fa-regular {
+    font-size: 24px;
+    width: 16px;
+    padding: 15px;
+}
+
+.right-btns {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.right-btns i {
+    font-size: 24px;
+    width: 30px;
+    height: 31px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+/* Shopping icon */
+.fa-circle-user {
+    font-size: 24px;
+}
+
+/* pin container */
+.pin-container{
+    display: flex;
+   
+    align-items: center;
+    
+    
+}
+.pin-container input{
+    border: none;
+    background-color: #fff;
+
+}
+
+/* menu */
+.nav-container{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+}
+.menu li{
+    font-size: 24px;
+    padding: 56px;
+
+}
+.redList{
+    color:red;
+}
 

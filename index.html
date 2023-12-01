@@ -1,45 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Página principal</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
         <div class="top-menu">
             <div class="logo">
                 <h1>C&MM</h1>
             </div>
-        <div class="search-container">
-            <input type="text" placeholder="O que você procura?">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="search-container">
+                <form>
+                    <input type="text" placeholder="O que você procura?">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
+
+            <div class="service">
+                <i class="fa-solid fa-headset"></i>
+                <p>Atendimento</p>
+            </div>
+            <!-- botão do WhatsApp -->
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <div class="wpp">
+
+                <p>Compre pelo Whatsapp</p>
+
+            </div>
+            <div class="welcome">
+                <p>Bem vindo a C&MM</p>
+                <!-- botão de usuário (login/registrar) -->
+                <i class="fa-regular fa-circle-user"></i>
+            </div>
+            <div class="right-btns">
+                <!-- botão de "coração"/like -->
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+
+            </div>
         </div>
-        
-        <div class="service">
-            <i class="fa-solid fa-headset"></i>
-            <p>Atendimento</p>
+       
+        <!-- menu principal -->
+        <div class="pin-container">
+            <form>
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" name="cep" placeholder="Digite seu CEP">
+                
+            </form>
+           
         </div>
-        <!-- botão do WhatsApp -->
-        <i class="fa-brands fa-square-whatsapp"></i>
-        <div class="wpp">
+        <nav class="nav-container">
+            <div class="menu">
+                <ul>
+                    <li>Feminino</li>
+                    <li>Masculino</li>
+                    <li>Infantil</li>
+                    <li class="redList">Outlet</li>
+                </ul>
             
-            <p>Compre pelo Whatsapp</p>
+            </div>
         </div>
-        <div class="welcome">
-           <p>Bem vindo a C&MM</p>
-        </div>
-        <div class="right-btns">
-        <!-- botão de usuário (login/registrar) -->
-        <i class="fa-regular fa-circle-user"></i>
-        <!-- botão de "coração"/like -->
-        <i class="fa-regular fa-heart"></i>
-        
-    </div>
-    </div>
-        <nav></nav>
+        </nav>
     </header>
 
     <script src="https://kit.fontawesome.com/676eccc9ff.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
