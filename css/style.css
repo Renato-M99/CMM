@@ -361,3 +361,29 @@
     bottom: 50%;
     text-align: center;
 }
+
+/* footer */
+footer{
+    display: flex;
+    color: white;
+    background-color: #000;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.footer h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer ul li{
+    padding-top: 16px;
+    list-style: none;
+    color: #717171;
+    
+}
+
+.bold ul li{
+    font-weight: bold;
+    font-size: 18px;
+}
