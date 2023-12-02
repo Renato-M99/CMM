@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 /* formatações do top-menu */
@@ -15,7 +16,7 @@
     color: white;
     height: 77px;
     margin: 0 auto;
-    
+
 
 }
 
@@ -118,39 +119,245 @@
 }
 
 /* pin container */
-.pin-container{
+.pin-container {
     display: flex;
-   
+
     align-items: center;
-    
-    
+
+
 }
-.pin-container input{
+
+.pin-container input {
     border: none;
     background-color: #fff;
 
 }
 
 /* menu */
-.nav-container{
-    
+.nav-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
+    /* border: 1px solid #000; */
+    padding: 16px;
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     margin: 0 auto;
 }
-.menu li{
+
+.menu li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
     padding: 56px;
 
 }
-.redList{
-    color:red;
+
+.redList {
+    color: red;
+    text-transform: uppercase;
 }
 
+/* cartões vermelhos */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.item {
+
+    width: 278px;
+    height: 172px;
+    background: red;
+    color: white;
+    max-width: 278px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.item h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* formatação do frete */
+.frete-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px;
+
+}
+
+.frete h3 {
+    text-align: end;
+    font-size: 40px;
+}
+
+.frete p {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 32px;
+}
+
+.fa-truck {
+    font-size: 75px;
+}
+
+/* formatação do express */
+.express {
+    display: inline;
+    align-items: center;
+
+}
+
+.express p {
+    text-align: start;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.express-container {
+    margin: 0 auto;
+    text-align: center;
+    width: 243px;
+    height: 137px;
+}
+
+.fa-clock {
+
+    font-size: 40px;
+}
+
+/* formatação card */
+.card {
+    text-align: center;
+}
+
+.card h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    margin-top: 16px;
+}
+
+.fa-credit-card {
+    font-size: 64px;
+}
+
+/* formatação app */
+.app {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.app h3 {
+    text-align: center;
+}
+
+.fa-mobile-screen {
+    font-size: 72px;
+}
+
+/* formatação banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* setinhas/ arrows */
+
+.left {
+    background: rgba(109, 109, 109, 0.253);
+    width: 16px;
+    padding: 12px;
+    position: absolute;
+    left: 0.5%;
+    bottom: 50%;
+    text-align: center;
+
+}
+
+.right {
+    background: rgba(109, 109, 109, 0.253);
+    width: 16px;
+    padding: 12px;
+    position: absolute;
+    right: 0.5%;
+    bottom: 50%;
+    text-align: center;
+}
+
+/* anuncios */
+
+.ads {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    
+}
+
+.ads h3 {
+    text-align: center;
+   
+}
+
+/* cards */
+.ads-un {
+    max-width: 120px;
+    text-align: center;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+.ads-un img {
+    
+    background: rgba(170, 170, 170, 0.322);
+    width: 120px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+
+.left-ads {
+    background: rgba(182, 182, 182, 0.452);
+    width: 16px;
+    padding: 10px;
+    position: absolute;
+    left: 2%;
+    bottom: 50%;
+    text-align: center;
+
+}
+
+.right-ads {
+    background: rgba(182, 182, 182, 0.452);
+    width: 16px;
+    padding: 10px;
+    position: absolute;
+    right: 2%;
+    bottom: 50%;
+    text-align: center;
+}
