@@ -97,12 +97,7 @@
     padding-left: 42px;
 }
  
-/* User icon SUPER class */
-.fa-regular {
-  
-    padding-left: 42px;
-  
-}
+
 /* User icon SUB class */
 .fa-circle-user i{
     font-size: 36px;
@@ -133,7 +128,8 @@
 /* pin container */
 .pin-container {
     display: flex;
-
+    padding-top: 14px;
+    padding-left: 14px;
     align-items: center;
 
 
@@ -142,7 +138,7 @@
 .pin-container input {
     border: none;
     background-color: #fff;
-
+    font-style: italic;
 }
 
 /* menu */
@@ -243,8 +239,8 @@
 }
 
 .fa-clock {
-
-    font-size: 40px;
+    padding-top: 14px;
+    font-size: 72px;
 }
 
 /* formatação card */
