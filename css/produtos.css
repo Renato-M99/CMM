@@ -332,6 +332,16 @@
     left: 32%;
     background: #d5d5d5;
     padding: 12px;
+    cursor: pointer;
+}
+
+
+.share i{
+    cursor: pointer;
+    color: red;
+    position: absolute;
+    top: 10%;
+    right: 0.5%;
 }
 
 
@@ -357,9 +367,7 @@
     color: grey;
 }
 /* formatação price container */
-.price{
-    
-}
+
 .price p{
     padding-top: 12px;
     font-size: 25px;
